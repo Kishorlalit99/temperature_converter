@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature converter</title>
+</head>
+<body>
+   <h1 class="rrr">Temperature Converter</h1>
+    <div class="tempconv">
+        
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">  <!--return false se form submit nhi hota hai yeh best technique hai form ko submit na krne ka-->
+        <lable for="temp" id="this">Enter the temperature you'd like to convert.</lable>
+        <br/><input type="number" name="temp" id="temp">
+
+        <select name="temp_diff" id="temp_diff">
+        <option value="cel">ºCelsius</option>
+        <option value="fah">ºFahrenheit</option>
+    </select><br/>
+    <input type="submit" name="temp" id="none"> <br/>
+    <span id="resultContainer"></span>
+
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
