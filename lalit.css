@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image: url("temperature convertor.jpg");
+   background-repeat: repeat-y;
+   background-size: cover;
+   opacity: 0.5;
+   max-height: fit-content;
+}
+
+.tempconv{
+    background-color: lightgray;
+   text-align: center;
+   font-size: 35px;
+   color: solid red;
+   margin-top: 0px;
+   margin-left: 700px;
+   margin-right: 100px;
+   
+   border-radius:  40px;
+   box-shadow: 20px 20px 30px whitesmoke;
+}
+
+
+ #none:hover{
+    color: solid red;
+ }
+
+
+ #none{
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+ }
+
+ #this{
+    font-size: 45px;
+    color: rgba(0, 0, 255, 0.6);
+   
+ }
+ #temp{
+    font-size: 20px;
+border-radius: 10px; 
+}
+#temp_diff{
+    font-size: 25px;
+border-radius: 10px; 
+}
+
+
+.rrr{
+    font-size: 50px;
+    margin-left: 770px;
+ margin-top: 180px;
+}
+
+#resultContainer{
+    color: rgba(0, 0, 255, 0.6);
+}
